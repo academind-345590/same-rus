@@ -1,6 +1,9 @@
-<h1>{{minutes}}:{{seconds}}</h1>
-<p>
-	<button (click)="togglePause()">
-		{{buttonLabel}}
-	</button>
-</p>
+<div class="text-center">
+<img src="assets/img/excavator.png" alt="Excavator">
+    <h1>{{minutes}}:{{seconds | number: '2.0'}}</h1>
+    <p>
+    	<button (click)="togglePause()">
+    		{{buttonLabel}}
+    	</button>
+    </p>
+</div>
