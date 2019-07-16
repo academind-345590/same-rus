@@ -15,7 +15,9 @@ export class PomodoroTimerComponent {
     setInterval(()=> this.tick(), 1000);
 
   }
-
+  resetPomodoro(): void {
+    
+  }
   // обратный отсчёт
   private tick (): void {
     if (--this.seconds < 1) {
